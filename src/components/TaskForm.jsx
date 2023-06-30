@@ -17,14 +17,14 @@ function TaskForm() {
       <form className="bg-slate-800 mb-4 " onSubmit={handleSubmit}>
         <h1 className="text-2xl font-bold text-white mb-3">Create your Task</h1>
         <input
-          placeholder="Escribi tu tarea"
+          placeholder="Write your title task"
           onChange={(e) => setTitle(e.target.value)}
           value={title}
           autoFocus
           className="bg-slate-300 p-3 w-full mb-2"
         />
         <textarea
-          placeholder="Escribe una descripcion para la tarea"
+          placeholder="Write a description for the task"
           onChange={(e) => setDescription(e.target.value)}
           value={description}
           className="bg-slate-300 p-3 w-full mb-2"
